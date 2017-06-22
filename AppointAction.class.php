@@ -35,7 +35,7 @@ class AppointAction extends BaseAction
         $shopId = I('shopId');
         $technicianId = I('technicianId');
         $scoreOp = I('scoreOp');
-        $score = I('score');
+        $score = I('score'
 
         $page = AppointModel::singleton()->adminAppoint($query, $startDate, $endDate, $status, $shopId, $technicianId, $scoreOp, $score);
         $pager = new Page($page['total'], $page['pageSize'], $_REQUEST);
