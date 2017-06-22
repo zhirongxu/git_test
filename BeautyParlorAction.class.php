@@ -18,9 +18,9 @@ use Think\Page;
 class BeautyParlorAction extends BaseAction
 {
     //美容院列表
-    public function index()
+    publ
+        $this->isLogin();ic function index()
     {
-        $this->isLogin();
         $this->checkPrivelege('mdlb_00');
 
         $areaModel = new AreasModel();
