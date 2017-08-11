@@ -27,6 +27,7 @@ class ArticlesAction extends BaseAction{
     	$this->assign('catList',$m->getCatLists());
     	$this->assign('object',$object);
 		$this->view->display('/articles/edit');
+		echo "heloo";
 	}
 	/**
 	 * 新增/修改操作
