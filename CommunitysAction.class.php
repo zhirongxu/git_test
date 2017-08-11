@@ -21,7 +21,7 @@ class CommunitysAction extends BaseAction{
     		$object = $m->get();
     	}else{
     		$this->checkPrivelege('sqlb_01');
-    		$object = $m->getModel();
+    		//$object = $m->getModel();
     	}
     	$a = D('Admin/Areas');
     	$this->assign('areaList',$a->queryShowByList(0));
