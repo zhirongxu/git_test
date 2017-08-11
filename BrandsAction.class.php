@@ -9,9 +9,7 @@
  * 品牌控制器
  */
 class BrandsAction extends BaseAction{
-	/**
-	 * 跳到新增/编辑页面
-	 */
+
 	public function toEdit(){
 		$this->isLogin();
 		//获取品牌
