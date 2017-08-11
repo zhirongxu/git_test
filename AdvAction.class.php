@@ -8,7 +8,7 @@
 
 namespace Admin\Action;
 
-//门店广告列表管理
+//门店广告
 
 use Checkout\Model\ShopModel;
 use Think\Page;
