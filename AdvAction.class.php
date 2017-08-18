@@ -57,7 +57,7 @@ class AdvAction extends BaseAction
     }
 
     /**
-     * 跳到新增/编辑页面
+     * 跳到新增
      */
     public function toEdit(){
         $this->isLogin();
