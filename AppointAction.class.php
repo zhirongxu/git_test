@@ -20,7 +20,7 @@ use Think\Page;
 
 class AppointAction extends BaseAction
 {
-    use Appoint;1212
+    use Appoint;
 
     //已预约
     public function appointed()
