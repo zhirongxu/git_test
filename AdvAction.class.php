@@ -61,7 +61,6 @@ class AdvAction extends BaseAction
      */
     public function toEdit(){
         $this->isLogin();
-        $m = D('Admin/Adv');
         $object = array();
         if(I('id',0)>0){
             $this->checkPrivelege('syjlb_02');

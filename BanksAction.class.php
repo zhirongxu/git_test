@@ -14,8 +14,7 @@ class BanksAction extends BaseAction{
 	 */
 	public function toEdit(){
 		$this->isLogin();
-	    $m = D('Admin/Banks');
-    	$object = array();
+	qwqwqw
     	if(I('id',0)>0){
     		$this->checkPrivelege('yhgl_02');
     		$object = $m->get();
