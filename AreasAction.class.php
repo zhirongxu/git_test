@@ -117,6 +117,7 @@ class AreasAction extends BaseAction{
 	 	$m = D('Admin/Areas');
 		$rs = $m->editiIsShow();
 		$this->ajaxReturn($rs);
+		echo "hahhahhaahha ";
 	 }
 };
 ?>
