@@ -33,7 +33,7 @@ class AdsAction extends BaseAction{
     		$object['adEndDate'] = date('Y-m-d');
     	}
     	$this->assign('object',$object);
-		$this->view->display('/ads/edit');
+		
 	}
 	/**
 	 * 新增/修改操作
