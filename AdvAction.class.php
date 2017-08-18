@@ -52,7 +52,9 @@ class AdvAction extends BaseAction
         $this->ajaxReturn($rs);
     }
 
-
+    public function ccc(){
+    	echo 1212;
+    }
 
     /**
      * 跳到新增/编辑页面
