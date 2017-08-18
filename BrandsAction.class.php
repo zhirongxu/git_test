@@ -87,5 +87,6 @@ class BrandsAction extends BaseAction{
 		$rs['list'] = $list;
 		$this->ajaxReturn($rs);
 	}
+
 };
 ?>

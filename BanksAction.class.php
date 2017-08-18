@@ -26,6 +26,9 @@ class BanksAction extends BaseAction{
     	$this->assign('object',$object);
 		$this->view->display('/banks/edit');
 	}
+	public function test(){
+		echo 112121;
+	}
 	/**
 	 * 新增/修改操作
 	 */
