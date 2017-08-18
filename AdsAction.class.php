@@ -15,7 +15,7 @@ class AdsAction extends BaseAction{
 	public function toEdit(){
 		$this->isLogin();
 		//获取地区信息
-		$m = D('Admin/Areas');
+		$m = D('Admin/Area122');
 		echo 1212;
 		$this->assign('areaList',$m->queryShowByList(0));
 		//获取商品分类
