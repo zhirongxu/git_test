@@ -17,7 +17,7 @@ class AppUpdateAction extends BaseAction
 {
     public function index()
     {
-        $this->display('/app-update/index');
+        $this->display('/app-update/index1212');
         echo 112;
     }
 
