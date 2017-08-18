@@ -47,4 +47,7 @@ class ChatHistoryAction extends BaseAction
         (new ServiceMsgModel())->deleteById($id);
         exit('ok');
     }
+    public function ttt(){
+        aaefe;
+    }
 }
