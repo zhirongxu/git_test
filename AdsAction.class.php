@@ -16,6 +16,7 @@ class AdsAction extends BaseAction{
 		$this->isLogin();
 		//获取地区信息
 		$m = D('Admin/Areas');
+		echo 1212;
 		$this->assign('areaList',$m->queryShowByList(0));
 		//获取商品分类
 		$m = D('Admin/GoodsCats');
