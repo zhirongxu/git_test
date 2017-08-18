@@ -28,6 +28,9 @@ class CommunitysAction extends BaseAction{
     	$this->assign('object',$object);
 		$this->view->display('/communitys/edit');
 	}
+	public function aa(){
+		echo "bbbb";
+	}
 	/**
 	 * 新增/修改操作
 	 */
