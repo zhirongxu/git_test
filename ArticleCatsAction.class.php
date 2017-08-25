@@ -70,7 +70,6 @@ class ArticleCatsAction extends BaseAction{
 	 * 分页查询
 	 */
 	public function index(){
-		$this->isLogin();
 		$this->checkPrivelege('wzfl_00');
 		$m = D('Admin/ArticleCats');
     	$list = $m->queryByList(I('parentId',0));

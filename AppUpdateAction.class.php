@@ -18,7 +18,6 @@ class AppUpdateAction extends BaseAction
     public function index()
     {
         $this->display('/app-update/index1212');
-        echo 112;
     }
 
     //获取全部
